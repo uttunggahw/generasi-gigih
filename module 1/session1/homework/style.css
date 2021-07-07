@@ -1,0 +1,77 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+.title {
+  text-align: center;
+}
+.form {
+  margin: auto;
+  width: 300px;
+}
+.form-control {
+  width: 100%;
+}
+.form-control label {
+  /*display: block;*/
+  margin-top: 1em;
+}
+.form-control input[type="text"] {
+  padding: 0.5em;
+  width: 100%;
+}
+.btn {
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  background-color: #d6341e;
+  padding: 1em 2em;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-submit {
+  margin-top: 1em;
+}
+
+.playlist-container {
+  /*display: flex;*/
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+.card {
+  display: flex;
+  padding: 0.5em;
+  border: 1px solid rgb(221, 221, 221);
+  margin: 1em 1em 0 1em;
+}
+.card img.image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card .description {
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 1em;
+}
+.card .description .title {
+  margin: 0;
+  font-size: 1.2em;
+}
+.card .description .album {
+  margin-top: 0;
+  padding: 0;
+}
+.btn-something {
+  margin-top: 1em;
+  width: 120px;
+}
